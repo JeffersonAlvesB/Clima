@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #0e021f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_main {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 5% 3%;
+}
+
+.container_pesquisa {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bi-geo-alt-fill,
+.bi-search {
+  font-size: 1.5rem;
+}
+
+.pesquisa {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #04263e;
+  padding: 0.5rem;
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.enviar {
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: silver;
+}
+
+.container_clima {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.container_clima_display {
+  display: none;
+}
+
+.imagens {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.container_graus {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-top: 1.5rem;
+}
+
+.grau {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.tipo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container_humidade_vento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.container_humidade,
+.container_vento {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bi-water,
+.bi-wind {
+  font-size: 2rem;
+}
+
+.Displays {
+  display: none;
+}
+
+@media screen and (max-width: 420px) {
+  .pesquisa {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .pesquisa {
+    font-size: 1rem;
+  }
+}
