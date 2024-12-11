@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 
-<h2>Link do site: <a href="https://climasjeffs.netlify.app/">ClimaAPP</a></h2>
+<h2>Link do site: <a href="https://climasjeffs.netlify.app">ClimaAPP</a></h2>
 
 ![Captura de tela_24-9-2024_173941_66f3232405cf093363d03f02--climasjeffs netlify app](https://github.com/user-attachments/assets/34049dbf-d687-4498-8111-3d9d0430c0fa)
 
